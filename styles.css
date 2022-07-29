@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/romana-bt');
+@import url(//db.onlinewebfonts.com/c/a928f24b58b82e8ea551d1d7599d2324?family=Romana+BT);
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    min-height: 100%;
+
+}
+
+body {
+    background-color: #CDCCCC;
+    text-align: left;
+    z-index: -1;
+}
+
+header {
+    margin: 2em 3em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Romana BT', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.06em;
+
+    padding: 1.8em 1em;
+    transition: transform .2s;
+    padding: 0.5px 45px;
+}
+
+nav li:hover,
+button:hover {
+    cursor: pointer;
+}
+
+#tiny-li-nav {
+    padding-right: 10em;
+}
+
+/*====================First Container ========================*/
+
+.first-container {
+    margin-top: 10em;
+    margin-left: 3em;
+    padding-left: 2em;
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    height: 700px;
+
+}
+
+h2 {
+    line-height: 1.3;
+
+}
+
+
+#first-span {
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    color: white;
+    margin-bottom: 2em;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+}
+
+.first-container p {
+    letter-spacing: 2;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1em;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+
+}
+
+button,
+#button-span {
+    background-color: #9F9D9D;
+    color: #F9F9F9;
+    padding: 20px 98px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.worksheet-image {
+    background-color: white;
+    width: 600px;
+    height: 850px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    top: 0em;
+    right: 0px;
+    z-index: 700;
+}
+
+
+/*=========================== Second Container ==============================*/
+.second-container {
+    background-color: white;
+    padding: 6em 5em;
+}
+
+.second-container p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #454242;
+}
+
+.second-container h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.05em;
+    color: #454242;
+}
+
+.sixGrayParagraph {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.treeGrayParagraph {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.treeGrayParagraph p {
+    background-color: #D9D9D9;
+    padding: 28px;
+    margin: 15px;
+    border-radius: 8px;
+    min-width: 400px;
+    min-height: 150px;
+    font-weight: 400;
+
+}
+
+#blury,
+#blury1 {
+    border: 1px solid black;
+    padding: 1px;
+    opacity: 60%;
+    background-color: rgba(217, 217, 217, 0.3);
+
+}
+
+/*==============================*/
+
+.pictures-comments {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+
+
+}
+
+.photo-text,
+.text-photo {
+    display: flex;
+    border: black 1px solid;
+    border-radius: 8px;
+    padding: 50px 30px;
+    gap: 30px;
+    width: 51em;
+    height: 20em;
+    align-items: center;
+
+}
+
+.photo-text img,
+.text-photo img {
+    display: block;
+    border: 3px solid #B8B3B3;
+    border-radius: 200px;
+    width: 220px;
+    height: 220px;
+
+}
+
+.photo-text p,
+.text-photo p {
+    line-height: 1.5;
+    margin-top: 5em;
+}
+
+.photo-text span,
+.text-photo span {
+    color: gray;
+    font-size: 15px;
+
+}
+
+
+.pictures-comments h4 {
+    text-align: right;
+    margin-top: 2em;
+    padding-right: 12em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #454242;
+}
+
+
+/*======= grid=================*/
+
+.test {
+    display: grid;
+    grid-template-areas:
+        'a a a a b'
+        'c d d d d'
+    ;
+    /* width: 50%; */
+    row-gap: 35px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.white1,
+.white2 {
+    background-color: white;
+    width: 220px;
+}
+
+.photo-text {
+    grid-area: a;
+
+}
+
+.white1 {
+    grid-area: b;
+}
+
+.white2 {
+    grid-area: c;
+}
+
+.text-photo {
+    grid-area: d;
+
+}
+
+/* ========================== fifth Container =========================*/
+
+.fifth-container {
+
+    padding: 5em 5em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fifth-container>p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.fifth-container p,
+.fifth-container h2 {
+    line-height: 25px;
+    margin-top: 1em;
+    color: #454242;
+}
+
+.fifth-container h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.05em;
+}
+
+#main-p-fith-container {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    letter-spacing: -0.02em;
+
+}
+
+.anotherTreepar {
+    display: flex;
+    gap: 8em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.anotherTreepar span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 50px;
+}
+
+.anotherTreepar p {
+    line-height: 23px;
+}
+
+#getstarted {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F9F9F9;
+}
+
+/*==============================Footer ================*/
+
+footer {
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-bottom: 5em;
+
+    background-color: rgba(131, 131, 131, 0.753);
+    display: flex;
+    gap: 11em;
+
+}
+
+footer h1 {
+    color: #454242;
+}
+
+footer p {
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+
+
+    color: #454242;
+}
+
+footer span {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+
+
+
+    color: #454242;
+
+
+}
