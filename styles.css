@@ -18,7 +18,9 @@
 body {
     background-color: #CDCCCC;
     text-align: left;
+    overflow-x: hidden;
     z-index: -1;
+
 }
 
 header {
@@ -149,7 +151,7 @@ button,
 
 .second-container p {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 150%;
     color: #454242;
 }
@@ -178,10 +180,10 @@ button,
 
 .treeGrayParagraph p {
     background-color: #D9D9D9;
-    padding: 28px;
-    margin: 15px;
+    padding: 22px;
+    margin: 10px;
     border-radius: 8px;
-    min-width: 400px;
+    min-width: 365px;
     min-height: 150px;
     font-weight: 400;
 
