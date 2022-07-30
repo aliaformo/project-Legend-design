@@ -326,7 +326,7 @@ button,
 
 .fifth-container h2 {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 49px;
     line-height: 120%;
     letter-spacing: -0.05em;
 }
@@ -334,17 +334,15 @@ button,
 #main-p-fith-container {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 150%;
-    /* or 36px */
-
     letter-spacing: -0.02em;
 
 }
 
 .anotherTreepar {
     display: flex;
-    gap: 8em;
+    gap: 6.5em;
     margin-top: 3em;
     margin-bottom: 3em;
 }
@@ -377,7 +375,7 @@ footer {
     padding-bottom: 5em;
     background-color: rgba(131, 131, 131, 0.753);
     display: flex;
-    gap: 16em;
+    gap: 13em;
 
 }
 
