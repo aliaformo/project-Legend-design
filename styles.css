@@ -375,10 +375,9 @@ footer {
     padding-top: 5em;
     padding-left: 5em;
     padding-bottom: 5em;
-
     background-color: rgba(131, 131, 131, 0.753);
     display: flex;
-    gap: 11em;
+    gap: 16em;
 
 }
 
@@ -389,9 +388,7 @@ footer h1 {
 footer p {
     line-height: 50px;
     font-weight: 500;
-    font-size: 16px;
-
-
+    font-size: 17px;
     color: #454242;
 }
 
@@ -399,9 +396,6 @@ footer span {
     font-weight: 800;
     font-size: 16px;
     line-height: 150%;
-
-
-
     color: #454242;
 
 
