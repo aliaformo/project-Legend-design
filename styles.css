@@ -32,16 +32,13 @@ header {
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
-    color: #9F9D9D;
+    font-family: 'Romana BT';
     font-style: normal;
+    font-weight: 400;
     font-size: 32px;
     line-height: 39px;
     letter-spacing: -0.02em;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    letter-spacing: -0.02em;
+    color: #222020;
 }
 
 nav {
@@ -118,7 +115,7 @@ h2 {
 
 }
 
-button,
+
 #button-span {
     background-color: #9F9D9D;
     color: #F9F9F9;
@@ -134,7 +131,7 @@ button,
 }
 
 .worksheet-image {
-    background-color: white;
+   
     width: 600px;
     height: 850px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -203,17 +200,13 @@ button,
 
 }
 
-/*==============================*/
+/*==================================================*/
 
 .pictures-comments {
     display: flex;
     flex-direction: column;
     margin: 2em auto;
-    width: 65em;
-    
-
-
-
+    width: 69em;
 }
 
 .photo-text,
@@ -223,7 +216,7 @@ button,
     border-radius: 8px;
     padding: 50px 30px;
     gap: 30px;
-    width: 51em;
+    width: 54em;
     height: 20em;
     align-items: center;
 
@@ -233,10 +226,10 @@ button,
 .text-photo img {
     display: block;
     border: 3px solid #B8B3B3;
-    border-radius: 200px;
-    width: 220px;
-    height: 220px;
-
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
 }
 
 .photo-text p,
@@ -249,14 +242,12 @@ button,
 .text-photo span {
     color: gray;
     font-size: 15px;
-
 }
 
 
 .pictures-comments h4 {
     text-align: right;
     margin-top: 2em;
-    
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
@@ -286,6 +277,9 @@ button,
 
 .photo-text {
     grid-area: a;
+    background-image: url(images/quote-start.svg);
+    background-repeat: no-repeat;
+    background-position: 278px 30px;
 
 }
 
@@ -299,6 +293,9 @@ button,
 
 .text-photo {
     grid-area: d;
+    background-image: url(images/quote-end.svg);
+    background-repeat: no-repeat;
+    background-position: 383px 131px;
 
 }
 
@@ -307,8 +304,11 @@ button,
 .fifth-container {
 
     padding: 5em 5em;
+    padding-right: 2em;
     justify-content: center;
     align-items: center;
+    background-color: #D9D9D9;
+    z-index: -1;
 
 }
 
@@ -316,21 +316,25 @@ button,
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
+    color: #454242;
 
 }
 
-.fifth-container p,
+/* .fifth-container p,
 .fifth-container h2 {
     line-height: 25px;
     margin-top: 1em;
     color: #454242;
-}
+} */
 
-.fifth-container h2 {
-    font-weight: 600;
-    font-size: 49px;
-    line-height: 120%;
-    letter-spacing: -0.05em;
+#span-h2 {
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+letter-spacing: -0.05em;
+color: #454242;
 }
 
 #main-p-fith-container {
@@ -339,14 +343,49 @@ button,
     font-size: 25px;
     line-height: 150%;
     letter-spacing: -0.02em;
+    color: #454242;
 
 }
+
+/*--------------------Funny boy---------------------------*/
+
+.text-funnyBoy-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.just-text-funnyBoy {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.funnyBoy-image {
+    position: relative;
+    top: -8em;
+    z-index: 700;
+}
+
+.funnyBoy-image img {
+    height: 45em;
+    width: 52em;
+    float: right;
+    margin-bottom: -12em;
+    
+}
+
+
+/*----------------------Another tree paragraphs------------------------*/
 
 .anotherTreepar {
     display: flex;
     gap: 6.5em;
-    margin-top: 3em;
+    /* margin-top: 3em; */
     margin-bottom: 3em;
+    z-index: -100;
+    margin-top: -3em;
 }
 
 .anotherTreepar span {
@@ -361,42 +400,81 @@ button,
 }
 
 #getstarted {
-    padding: 10px 15px;
+    padding: 16px 32px;
+    letter-spacing: 1.1px;
+    color: #F9F9F9;
+    margin-top: 2em;
+    background-color: #9F9D9D;
+    color: #F9F9F9;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
-
-    color: #F9F9F9;
+    
 }
 
 /*==============================Footer ================*/
 
 footer {
-    padding-top: 5em;
-    padding-left: 5em;
-    padding-bottom: 5em;
-    background-color: rgba(131, 131, 131, 0.753);
+    padding: 8em 5em;
+
+    background: #AFAEAE;
     display: flex;
-    gap: 13em;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 footer h1 {
-    color: #454242;
+    color: #222020;
+    margin-bottom: 1em;
+    font-weight: 500;
 }
 
 footer p {
     line-height: 50px;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 16px;
     color: #454242;
+    line-height: 150%;
+
 }
 
-footer span {
+/* footer span {
     font-weight: 800;
     font-size: 16px;
     line-height: 150%;
     color: #454242;
+} */
 
+.footer-image {
+    width: 80px;
+    height: 80px;
+    background-color: #D9D9D9;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+   
+   
+    display: flex;
+    align-items: center;
+     text-align: center;
+     justify-content: center;
+     
 
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+#arrow-button {
+    border: none;
+    background-color: inherit;
+    height: 2px;
+    border-radius: 10px;
 }
