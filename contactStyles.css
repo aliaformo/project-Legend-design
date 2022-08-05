@@ -78,6 +78,12 @@ ul li .line {
     border-radius: 5px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
 
 
 main {
@@ -92,9 +98,10 @@ main {
     justify-content: center;
     background-color: #F0F0F0;
     gap: 2em;
-    margin-right: 8em;
-    width: 87em;
+    min-width: 1280px;
+    max-width: 1500px;
     height: 20em;
+    margin: 0px auto;
     
 
 }
@@ -102,8 +109,9 @@ main {
 .first-container-text {
     justify-content: center;
     padding: 4.5em 0;
-    min-width: 845px;
-    max-width: 1200px;
+    min-width: 660px;
+    max-width: 750px;
+    /* max-width: 1200px; */
 }
 
 .first-container-girl h2 {
@@ -116,8 +124,8 @@ main {
 .first-container-girl p {
     padding-left: 4em;
     font-size: 24px;
-    border-radius: 20px 0px 0px 20px;
-}
+    line-height: 1.6;
+    }
 
 .girl-image {
     background-color: white;
@@ -125,16 +133,18 @@ main {
     width: 19em; */
     border: 1px solid white;
     border-radius: 300px 0px 0px 300px;
-    min-width: 435px;
-    max-width: 500px;
+    min-width: 620px;
+    max-width: 750px;
+    /* max-width: 500px; */
 }
 
 .girl-image img {
-    width: 47.5em;
-    height: 19em;
+    width: 48.5em;
+    height: 20em;
+    border: 8px solid white;
     /* object-fit: cover; */
     /* border: 1px solid black; */
-    border-radius: 300px;
+    border-radius: 300px 0px 0px 300px;
 }
 
 
@@ -146,8 +156,6 @@ main {
     align-items: center;
     justify-content: center;
     gap: 2em;
-
-
 }
 
 .second-container-SalesSupport h4,
@@ -162,7 +170,6 @@ main {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-
 }
 
 .Sales,
@@ -171,8 +178,6 @@ main {
     padding: 22px;
     min-width: 420px;
     min-height: 215px;
-
-
 }
 
 .Sales h4,
@@ -191,7 +196,6 @@ h3 {
     line-height: 120%;
     letter-spacing: -0.02em;
     margin: 1em auto;
-
 }
 
 /*==========================   third-container-location  ===============================*/
@@ -200,21 +204,22 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1em 0em;
+    height: 528px;
+    margin: 2em 0em;
 }
 
 
 .google-location {
     flex-grow: 11;
     min-width: 845px;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .text-location {
     border: 1px solid #D7D7D7;
     box-shadow: 0px 4px 4px rgba(215, 215, 215, 0.25);
     padding: 55px;
-    min-width: 435px;
+    min-width: 460px;
     max-width: 500px;
     /* flex-grow: 1; */
     /* height: 528px; */
