@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @font-face {
-    font-family: 'Romana BT';
+    font-family: Romana;
     src: url(fonts/ROMANAB.TTF);
 }
 
@@ -41,11 +41,11 @@ header {
 h1 {
     font-family: 'Romana BT';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 32px;
     line-height: 39px;
     letter-spacing: -0.02em;
-    color: white;
+    color: #EEEEF1;
 }
 
 nav {
@@ -57,14 +57,21 @@ nav {
     font-size: 16px;
     line-height: 150%;
     color: #EDF0E9;
+    align-items: center;
 }
 
 nav li {
     display: inline-block;
     font-size: 1.06em;
     padding: 1.8em 1em;
-    transition: transform .2s;
     padding: 0.5px 45px;
+    align-items: center;
+}
+
+#logo-halfnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav li:hover,
@@ -449,13 +456,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #EEEEF1;
 }
 
 footer h1 {
-    color: white;
+    color: #EEEEF1;
     margin-bottom: 1em;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 32px;
     line-height: 39px;
 }
