@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: #5869BD;
+    background-color: #313B6A;
     text-align: left;
     overflow-x: hidden;
     z-index: -1;
@@ -56,7 +56,7 @@ nav {
     font-weight: lighter;
     font-size: 16px;
     line-height: 150%;
-    color: white;
+    color: #EDF0E9;
 }
 
 nav li {
@@ -75,8 +75,8 @@ button:hover {
 #signupborder {
     border-radius: 8px;
     padding: 10px 13px;
-    color: #050a24;
-    background-color: #E9ECFC;
+    border: 2px solid #E9ECFC;
+    font-weight: 400;
 }
 
 
@@ -138,8 +138,8 @@ h2 {
 
 
 #button-span {
-    background-color: #ECC681;
-    color: rgb(44, 44, 44);
+    background-color: #E9ECFC;
+    color: #313B6A;
     padding: 17px 40px;
     font-size: 16px;
     border: none;
@@ -183,7 +183,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #5869BD;
+    color: #2b2828;
 }
 
 .sixGrayParagraph {
@@ -327,7 +327,7 @@ h2 {
     padding-right: 2em;
     justify-content: center;
     align-items: center;
-    background: #fdf5e2;
+    background: #e9e1e1;
     z-index: -1;
 }
 
@@ -346,7 +346,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #3D6080;
+    color: #454242;
 }
 
 #main-p-fith-container {
@@ -372,11 +372,18 @@ h2 {
 .just-text-funnyBoy {
     display: flex;
     flex-direction: column;
+   
+    
 }
 
 #blury {
-    background: rgba(105, 255, 183, 0.3);
-    border: 1px solid rgba(68, 73, 71, 0.5);
+    color: #FF5678;
+}
+
+#main-p-fith-container {
+    
+    min-width: 26.6em;
+
 }
 
 .funnyBoy-image {
@@ -438,7 +445,7 @@ h2 {
 footer {
     padding: 8em 5em;
     padding-right: 2em;
-    background: #424F8E;
+    background: #313B6A;
     display: flex;
     justify-content: space-between;
     align-items: center;
