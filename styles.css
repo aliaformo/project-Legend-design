@@ -3,7 +3,16 @@
 @import url(//db.onlinewebfonts.com/c/a928f24b58b82e8ea551d1d7599d2324?family=Romana+BT);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'Romana BT';
+    src: url(fonts/ROMANAB.TTF);
+}
 
+@font-face {
+    font-family: 'FiraSans Regular';
+    src: url(fonts/FiraSans-Regular.TTF);
+
+}
 
 * {
     margin: 0;
@@ -15,7 +24,7 @@
 }
 
 body {
-    background-color: #5180AA;
+    background-color: #5869BD;
     text-align: left;
     overflow-x: hidden;
     z-index: -1;
@@ -32,11 +41,11 @@ header {
 h1 {
     font-family: 'Romana BT';
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     font-size: 32px;
     line-height: 39px;
     letter-spacing: -0.02em;
-    color: #FFEBB7;
+    color: white;
 }
 
 nav {
@@ -44,10 +53,10 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: lighter;
+    font-size: 16px;
     line-height: 150%;
-    color: #EDF0E9;
+    color: white;
 }
 
 nav li {
@@ -63,14 +72,11 @@ button:hover {
     cursor: pointer;
 }
 
-#tiny-li-nav {
-    padding-right: 10em;
-}
-
 #signupborder {
-    border: 1.5px solid #ECC681;
     border-radius: 8px;
-    padding: 8px 11px;
+    padding: 10px 13px;
+    color: #050a24;
+    background-color: #E9ECFC;
 }
 
 
@@ -133,8 +139,8 @@ h2 {
 
 #button-span {
     background-color: #ECC681;
-    color: black;
-    padding: 20px 48px;
+    color: rgb(44, 44, 44);
+    padding: 17px 40px;
     font-size: 16px;
     border: none;
     border-radius: 8px;
@@ -177,7 +183,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #312D2D;
+    color: #5869BD;
 }
 
 .sixGrayParagraph {
@@ -340,7 +346,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #454242;
+    color: #3D6080;
 }
 
 #main-p-fith-container {
@@ -410,16 +416,16 @@ h2 {
 }
 
 #getstarted {
-    padding: 16px 32px;
+    padding: 6px 26px;
     letter-spacing: 1.1px;
-    color: black;
+    color: white;
     margin-top: 2em;
-    background-color: #ECC681;
+    background-color: #6E83EC;
     font-size: 16px;
     border: none;
     border-radius: 8px;
     margin-bottom: 1.5em;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
 }
@@ -431,16 +437,17 @@ h2 {
 footer {
     padding: 8em 5em;
     padding-right: 2em;
-    background: #30475B;
+    background: #424F8E;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 footer h1 {
-    color: #FFEBB7;
+    color: white;
     margin-bottom: 1em;
-    font-weight: 400;
+    font-weight: lighter;
     font-size: 32px;
     line-height: 39px;
 }
@@ -449,28 +456,10 @@ footer p {
     line-height: 50px;
     font-weight: 400;
     font-size: 14px;
-    color: #E1E5DA;
+
     line-height: 150%;
 }
 
-
-.footer-image {
-    width: 80px;
-    height: 80px;
-    background-color: #D9D9D9;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    border-radius: 500px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-footer img {
-    height: 30px;
-    width: 30px;
-}
 
 #arrow-button {
     border: none;
