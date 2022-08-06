@@ -379,8 +379,6 @@ h2 {
 .just-text-funnyBoy {
     display: flex;
     flex-direction: column;
-   
-    
 }
 
 #blury {
@@ -388,9 +386,8 @@ h2 {
 }
 
 #main-p-fith-container {
-    
-    min-width: 26.6em;
-
+    min-width: 19em;
+    max-width: 28em;
 }
 
 .funnyBoy-image {
@@ -415,7 +412,6 @@ h2 {
     gap: 6.5em;
     margin-bottom: 3em;
     z-index: -100;
-    margin-top: 1em;
 }
 
 .anotherTreepar span {
