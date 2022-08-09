@@ -23,14 +23,14 @@
     min-height: 100%;
 }
 
-body {
+#landingBody {
     background-color: #313B6A;
     text-align: left;
     overflow-x: hidden;
     z-index: -1;
 }
 
-header {
+.landingHeader {
     margin: 2em 3em;
     padding: 2em;
     display: flex;
@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+.landingH1 {
     font-family: 'Romana BT';
     font-style: normal;
     font-weight: 300;
@@ -48,7 +48,7 @@ h1 {
     color: #EEEEF1;
 }
 
-nav {
+.landingNav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,7 +60,7 @@ nav {
     align-items: center;
 }
 
-nav li {
+.landingLi {
     display: inline-block;
     font-size: 1.06em;
     padding: 1.8em 1em;
@@ -103,7 +103,7 @@ a {
 
 /*====================First Container ========================*/
 
-.first-container {
+.landingFirst-container {
     margin-top: 10em;
     margin-left: 3em;
     padding-left: 2em;
@@ -130,7 +130,7 @@ h2 {
     letter-spacing: -0.02em;
 }
 
-.first-container p {
+.landingFirst-container-p {
     letter-spacing: 2;
     margin-bottom: 5px;
     line-height: 1.5;
@@ -171,19 +171,19 @@ h2 {
 
 
 /*=========================== Second Container ==============================*/
-.second-container {
+.landingSecond-container {
     background-color: white;
     padding: 6em 5em;
 }
 
-.second-container p {
+.landingSecond-container-p {
     font-weight: 600;
     font-size: 15px;
     line-height: 150%;
     color: #454242;
 }
 
-.second-container h2 {
+.landingSecond-container-h2 {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     font-weight: 600;
@@ -275,7 +275,7 @@ h2 {
     font-size: 15px;
 }
 
-.pictures-comments h4 {
+#landingh4 {
     text-align: right;
     margin-top: 2em;
     font-weight: 600;
@@ -329,7 +329,7 @@ h2 {
 
 /* ========================== fifth Container =========================*/
 
-.fifth-container {
+.landingThird-container {
     padding: 5em 5em;
     padding-right: 2em;
     justify-content: center;
@@ -338,7 +338,7 @@ h2 {
     z-index: -1;
 }
 
-.fifth-container>p {
+.landingThird-container-p {
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
@@ -346,7 +346,7 @@ h2 {
 }
 
 
-#span-h2 {
+#landingspan-h2 {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -356,7 +356,7 @@ h2 {
     color: #454242;
 }
 
-#main-p-fith-container {
+#landingMain-p-fith-container {
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -385,7 +385,7 @@ h2 {
     color: #FF5678;
 }
 
-#main-p-fith-container {
+#landingMain-p-fith-container {
     min-width: 19em;
     max-width: 28em;
 }
@@ -414,14 +414,14 @@ h2 {
     z-index: -100;
 }
 
-.anotherTreepar span {
+.anotherTreepar-span {
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
     padding-bottom: 50px;
 }
 
-.anotherTreepar p {
+.anotherTreepar-p {
     line-height: 23px;
 }
 
@@ -445,7 +445,7 @@ h2 {
 
 /*==============================Footer ================*/
 
-footer {
+.landingFooter {
     padding: 8em 5em;
     padding-right: 2em;
     background: #313B6A;
@@ -455,7 +455,7 @@ footer {
     color: #EEEEF1;
 }
 
-footer h1 {
+#landingFooter-h1 {
     color: #EEEEF1;
     margin-bottom: 1em;
     font-weight: 400;
@@ -463,7 +463,7 @@ footer h1 {
     line-height: 39px;
 }
 
-footer p {
+.landingFooter-p {
     line-height: 50px;
     font-weight: 400;
     font-size: 14px;
@@ -472,7 +472,7 @@ footer p {
 }
 
 
-#arrow-button {
+#landingArrow-button {
     border: none;
     background-color: inherit;
     height: 2px;
