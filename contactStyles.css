@@ -24,13 +24,13 @@
     min-height: 100%;
 }
 
-body {
+.contact-body {
     background-color: white;
     text-align: left;
     overflow-x: hidden;
 }
 
-header {
+#contact-header {
     margin: 2em 3em;
     margin-bottom: 0em;
     padding: 2em;
@@ -39,7 +39,7 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+.contactH1 {
     font-family: 'Romana BT';
     font-style: normal;
     font-weight: lighter;
@@ -49,7 +49,7 @@ h1 {
     color: #5869BD;
 }
 
-nav {
+.contact-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,7 +62,7 @@ nav {
     align-items: center;
 }
 
-nav li {
+.contactnav-li {
     display: inline-block;
     font-size: 1.06em;
     padding: 1.8em 1em;
@@ -71,7 +71,7 @@ nav li {
     align-items: center;
 }
 
-#logo-halfnav {
+#contactlogo-halfnav {
     display: flex;
     align-items: center;
    
@@ -85,13 +85,13 @@ nav li {
     font-size: 500;
 }
 
-nav li:hover,
-button:hover {
+.contactnav-li:hover,
+#contactArrow-button:hover {
     cursor: pointer;
 }
 
 
-ul li .line {
+.contact-ul .line {
     display: block;
     height: 7.5px;
     width: 110%;
@@ -113,7 +113,7 @@ main {
 
 /*========================= first-container-girl =================================*/
 
-.first-container-girl {
+.contact-first-container-girl {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,27 +126,27 @@ main {
     z-index: -100;
 }
 
-.first-container-text {
+.contact-first-container-text {
     justify-content: center;
     padding: 4.5em 0;
     min-width: 660px;
     max-width: 760px;
 }
 
-.first-container-girl h2 {
+.contact-first-container-girl-h2 {
     padding-left: 1em;
     margin-bottom: 1em;
     font-size: 48px;
 }
 
 
-.first-container-girl p {
+.contact-first-container-girl-p {
     padding-left: 4em;
     font-size: 24px;
     line-height: 1.6;
 }
 
-.girl-image {
+.contact-girl-image {
     background-color: white;
     border: 1px solid white;
     border-radius: 300px 0px 0px 300px;
@@ -154,7 +154,7 @@ main {
     max-width: 720px;
 }
 
-.girl-image img {
+#girl-image-img {
     width: 42em;
     height: 20em;
     border: 8px solid white;
@@ -164,7 +164,7 @@ main {
 
 /*===========================Star div===========================*/
 
-.star-image {
+.contact-star-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ main {
 
 /*=======================   second-container-SalesSupport ===========================*/
 
-.second-container-SalesSupport {
+.contact-second-container-SalesSupport {
     display: flex;
     margin: 1em 5em;
     align-items: center;
@@ -188,15 +188,17 @@ main {
     margin-bottom: 7em;
 }
 
-.second-container-SalesSupport h4,
-.text-location h4 {
+#contact-second-container-SalesSupport-h4,
+#contact-second-containerSalesSupport-h4,
+.contact-text-location-h4 {
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
     letter-spacing: -0.02em;
+    
 }
 
-.second-container-SalesSupport p {
+.contact-second-container-SalesSupport-p {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -211,8 +213,8 @@ main {
     background-color: white;
 }
 
-.Sales h4,
-.Support h4 {
+.Sales-h4,
+.Support-h4 {
     margin-bottom: 0.4em;
 }
 
@@ -220,7 +222,7 @@ main {
 
 /*===============================H3==========================*/
 
-h3 {
+#contact-h3 {
     text-align: center;
     font-weight: 600;
     font-size: 32px;
@@ -231,7 +233,7 @@ h3 {
 
 /*==========================   third-container-location  ===============================*/
 
-.third-container-location {
+.contact-third-container-location {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,7 +248,7 @@ h3 {
     max-width: 1000px;
 }
 
-.text-location {
+.contact-text-location {
     border: 1px solid #D7D7D7;
     box-shadow: 0px 4px 4px rgba(215, 215, 215, 0.25);
     padding: 55px;
@@ -255,7 +257,7 @@ h3 {
 }
 
 
-.text-location p {
+.contact-text-location-p {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -263,9 +265,9 @@ h3 {
 }
 
 
-/*==============================Footer ==================================*/
+/*============================== Contact Footer ==================================*/
 
-footer {
+#contactFooter {
     padding: 8em 5em;
     padding-right: 2em;
     background: #313B6A;
@@ -275,7 +277,7 @@ footer {
     color: white;
 }
 
-footer h1 {
+#contactFooter-h1 {
     color: white;
     margin-bottom: 1em;
     font-weight: lighter;
@@ -283,7 +285,7 @@ footer h1 {
     line-height: 39px;
 }
 
-footer p {
+#contactFooter-p {
     line-height: 50px;
     font-weight: 400;
     font-size: 14px;
@@ -292,7 +294,7 @@ footer p {
 }
 
 
-#arrow-button {
+#contactArrow-button {
     border: none;
     background-color: inherit;
     height: 2px;
